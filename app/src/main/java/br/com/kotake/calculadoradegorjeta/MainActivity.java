@@ -25,5 +25,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        amountTextView = (TextView) findViewById(R.id.amountTextView);
+        percentTextView = (TextView) findViewById(R.id.percentTextView);
+        tipTextView = (TextView) findViewById(R.id.tipTextView);
+        totalTextView = (TextView) findViewById(R.id.totalTextView);
     }
 }
